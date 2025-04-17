@@ -1,0 +1,23 @@
+{
+  "name": "@rbxts/shieldcore",
+  "version": "1.0.0",
+  "description": "A powerful anti-cheat framework for Roblox using TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agminis/Shieldcore?tab=MIT-1-ov-file"
+  },
+  "author": "Agminis",
+  "license": "MIT",
+  "dependencies": {
+    "@rbxts/services": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
