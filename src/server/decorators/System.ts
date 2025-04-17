@@ -1,5 +1,5 @@
 const registeredSystems: Array<() => void> = [];
-const prioritySystems: Array<() => void> = []; // z.B. Webhook zuerst
+const prioritySystems: Array<() => void> = []; 
 
 interface Initializable {
 	init?: () => void;
